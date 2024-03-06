@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  border: 2px solid white;
+  color: white;
+  flex-direction: column;
+  padding: 20px 10px;
+}
+.buttons {
+  padding: 50px 0px;
+}
+.buttons h2 {
+  padding: 25px 15px;
+  cursor: pointer;
+}
+.buttons button {
+  margin: 0px 10px;
+  border: 0;
+  outline: 0;
+}
+.val h1 {
+  padding-top: 50px;
+  font-size: 40px;
+}
