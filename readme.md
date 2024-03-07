@@ -26,7 +26,7 @@ npm install
 
 npm run dev
 
-5. Open your browser and visit `http://localhost:3000` to view the project.
+5. Open your browser and visit `http://localhost:5173/` to view the project.
 
 ## Projects
 
