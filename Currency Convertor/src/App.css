@@ -1,0 +1,60 @@
+.container {
+  border: 2px solid white;
+  padding: 25px 30px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container h1 {
+  margin-bottom: 20px;
+}
+.Input-Box-Container {
+  border: 2px solid white;
+  border-radius: 8px;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  margin: 20px 0px;
+}
+.input-value,
+.select-currency {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 0px;
+}
+label {
+  padding: 5px 0px;
+}
+button {
+  margin: 10px 0px;
+  font-size: 20px;
+  background-color: #176e6e;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  padding: 10px 5px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+input {
+  font-size: 20px;
+  padding: 5px 10px;
+  width: 70%;
+}
