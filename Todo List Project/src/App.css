@@ -1,0 +1,94 @@
+.container {
+  width: 70%;
+
+  padding: 50px 0px;
+  margin: auto;
+}
+.container > h1 {
+  font-size: 20px;
+  text-align: center;
+}
+.todoForm {
+  width: 65%;
+  margin: 20px auto;
+}
+.todoForm input[type="text"] {
+  width: 90%;
+  border: 0;
+  outline: 0;
+  padding: 10px 10px;
+  background-color: #434d65;
+  color: white;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+.todoForm input[type="submit"] {
+  width: 10%;
+  border: 0;
+  outline: 0;
+  padding: 10px 10px;
+  background-color: #16a34a;
+  cursor: pointer;
+  color: white;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+.task {
+  width: 65%;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 10px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.taskStatus {
+  display: flex;
+  gap: 10px;
+}
+
+.taskValue input[type="text"] {
+  width: 400px;
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+  font-size: 20px;
+  margin-left: 10px;
+}
+.taskIncomplete {
+  background-color: #ccbed7;
+}
+.taskStatus button {
+  background-color: white;
+  text-align: center;
+  padding: 10px 10px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+.Complete {
+  background-color: #c6e9a7;
+  text-decoration: line-through;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.InComplete {
+  background-color: #ccbed7;
+}
+.editVal {
+  outline: 0.2px solid rgb(77, 70, 70) !important;
+  padding: 0px 5px !important;
+}

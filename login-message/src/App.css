@@ -1,0 +1,50 @@
+.container {
+  border: 2px solid white;
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container h1 {
+  padding: 20px 0px;
+  font-size: 50px;
+  text-align: center;
+  width: 350px;
+}
+
+form div {
+  display: flex;
+
+  flex-direction: column;
+  margin-top: 20px;
+}
+form label {
+  font-size: 30px;
+  padding: 10px 0px;
+}
+
+form input {
+  border: 0;
+  outline: 0;
+  font-size: 15px;
+  padding: 10px 5px;
+}
+form input[type="submit"] {
+  cursor: pointer;
+}
+button {
+  margin-top: 20px;
+  background-color: red;
+  color: white;
+  border: 0;
+  outline: 0;
+  font-size: 15px;
+  padding: 10px 5px;
+  cursor: pointer;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
