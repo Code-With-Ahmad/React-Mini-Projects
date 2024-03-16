@@ -37,7 +37,7 @@ Here's a list of projects included in this repository:
 3. **Random Password Generator**: An application that generates random passwords using ReactJS.
 4. **To Do List** : A To Do List Application with Local Storage.
 5. **Currency Convertor** : Instantly convert currencies with up-to-the-minute rates using our API-powered currency converter app .
-
+6. **Todo List** : A Todo List using Redux Toolkit .
 Each project directory contains the necessary files and resources specific to that project.
 
 ## Contributing
