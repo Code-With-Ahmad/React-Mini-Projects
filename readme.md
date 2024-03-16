@@ -38,6 +38,9 @@ Here's a list of projects included in this repository:
 4. **To Do List** : A To Do List Application with Local Storage.
 5. **Currency Convertor** : Instantly convert currencies with up-to-the-minute rates using our API-powered currency converter app .
 6. **Todo List** : A Todo List using Redux Toolkit .
+7. **And Many More**
+
+
 Each project directory contains the necessary files and resources specific to that project.
 
 ## Contributing
