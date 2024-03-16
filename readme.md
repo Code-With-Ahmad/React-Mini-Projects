@@ -35,6 +35,8 @@ Here's a list of projects included in this repository:
 1. **Counter**: A simple counter application built with ReactJS.
 2. **Background Changer**: An application that allows users to change the background color using ReactJS.
 3. **Random Password Generator**: An application that generates random passwords using ReactJS.
+4. **To Do List : A To Do List Application with Local Storage.
+5. **Currency Convertor : Instantly convert currencies with up-to-the-minute rates using our API-powered currency converter app .
 
 Each project directory contains the necessary files and resources specific to that project.
 
